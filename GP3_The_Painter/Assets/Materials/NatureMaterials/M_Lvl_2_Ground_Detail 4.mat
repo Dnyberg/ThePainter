@@ -1,0 +1,94 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Lvl_2_Ground_Detail 4
+  m_Shader: {fileID: 4800000, guid: e7e001404a593cd41842e1be254ce13a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BrushTexture:
+        m_Texture: {fileID: 2800000, guid: 27f47794e7bbbbf459a420e62fd1522e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailTexture:
+        m_Texture: {fileID: 2800000, guid: c9941e688984bc240b317e8a8a6b7077, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainDetailTexture:
+        m_Texture: {fileID: 2800000, guid: e7635a5669ba2b54fa78cdfebe49dc9f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTexture:
+        m_Texture: {fileID: 2800000, guid: d179c8744f837da49ab92aae04d1ae1c, type: 3}
+        m_Scale: {x: 10, y: 10}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 566130b4c7fa0164b8d8431b5e191a02, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: e2be95ba8cb12f643adad0c91f42d3a9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 2800000, guid: b2c6639585e9005409b665012012122e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _paint5:
+        m_Texture: {fileID: 2800000, guid: e2be95ba8cb12f643adad0c91f42d3a9, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ColorIntensity: 1.03
+    - _Cutoff: 0.5
+    - _DetailIntensity: 1
+    - _Float0: 3.18
+    - _Float1: 10.07
+    - _Float2: 1
+    - _Float3: 0.572
+    - _Float4: 1
+    - _Float5: 0.6
+    - _Float6: 0.71
+    - _Intensity: 0.05
+    - _LightAmount: 1
+    - _LightColorIntensity: 0.14
+    - _LightIntensity: 10
+    - _NoiseIntensity: 0
+    - _OpacityIntensity: 1.1
+    - _SSSPower: 0
+    - _SSSScale: 0
+    - _SecondDetailIntensity: 10
+    - _Shininess: 0.057
+    - _SubsurfaceDistortionModifier: 0
+    - _VertexOffsetIntensity: 0.08
+    - __dirty: 0
+    m_Colors:
+    - _BaseColor: {r: 1, g: 0.58811235, b: 0, a: 1}
+    - _Color: {r: 0.46360064, g: 1, b: 0, a: 0}
+    - _Color0: {r: 0.13663451, g: 0.8207547, b: 0.081301175, a: 1}
+    - _Color1: {r: 0.9772253, g: 1, b: 0, a: 0}
+    - _LeafColor: {r: 0.03364186, g: 0.1132075, b: 0.04199601, a: 0}
+    - _LightColor: {r: 0.8679245, g: 0.45985085, b: 0.1432894, a: 0}
+    - _MainColor: {r: 0.25685295, g: 0.49056602, b: 0.2811467, a: 0}
+    - _NoiseColor: {r: 0.17928979, g: 0.4811321, b: 0.21503428, a: 0}
+    - _S: {r: 0.1221361, g: 1, b: 0.08962262, a: 0}
+    - _SSSColor: {r: 0, g: 1, b: 0.89049053, a: 0}
+    - _SecondColor: {r: 0.9150943, g: 0.3496351, b: 0.7090947, a: 1}
+    - _SpecularColor: {r: 0.3921569, g: 0.3921569, b: 0.3921569, a: 1}

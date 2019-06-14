@@ -1,0 +1,71 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_LustHouseFoliage 1
+  m_Shader: {fileID: 4800000, guid: e7e001404a593cd41842e1be254ce13a, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _BrushTexture:
+        m_Texture: {fileID: 2800000, guid: ae6a515815a2f174eb7586b397d708b7, type: 3}
+        m_Scale: {x: 2, y: 2}
+        m_Offset: {x: 0, y: 0}
+    - _LeafAlpha:
+        m_Texture: {fileID: 2800000, guid: 5504b9acf9b7acc4ab38b544eb220aef, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainDetailTexture:
+        m_Texture: {fileID: 2800000, guid: 335a32816cb3e2a4889d5bdb1dbe5e77, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTexture:
+        m_Texture: {fileID: 2800000, guid: 5718d824959eb814bb7c7a883b94758c, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: 486b5889c36a7c6498d96af86b540f0a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _ASEOutlineWidth: 0.1
+    - _ColorInt: 0.3
+    - _ColorIntensity: 1.3
+    - _Cutoff: 0.75
+    - _LightColorIntensity: 0.38
+    - _NoiseIntensity: 0
+    - _OpacityIntensity: 1.02
+    - _SSSPower: 0
+    - _SSSScale: 0
+    - _Shininess: 1
+    - _SubsurfaceDistortionModifier: 0
+    - _VertexOffsetIntensity: 0
+    - __dirty: 0
+    m_Colors:
+    - _ASEOutlineColor: {r: 0, g: 0, b: 0, a: 0}
+    - _BaseColor: {r: 1, g: 1, b: 1, a: 0}
+    - _LeafColor: {r: 0.20985498, g: 0.6509434, b: 0, a: 0}
+    - _LightColor: {r: 1, g: 0.94274926, b: 0, a: 0}
+    - _NoiseColor: {r: 1, g: 0.9371232, b: 0, a: 0}
+    - _SSSColor: {r: 1, g: 0.79468864, b: 0, a: 0}
+    - _SpecularColor: {r: 0.7735849, g: 0.73208714, b: 0.52910286, a: 1}

@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: AttilaHerczeg_CandleShader
+  m_Shader: {fileID: 4800000, guid: 15eee9d3ec4dd9047897ac5de1b5621f, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Noise:
+        m_Texture: {fileID: 2800000, guid: ea9958ac605aa3d409e787190cfb5767, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: c2deb4ca1b95e4f48afdaf90821fae82, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _BrightnessMultiplier: 0.79
+    - _Cutoff: 0
+    - _FakeGlow: 4.12
+    - _FlameFlickerSpeed: 0.25
+    - _NoiseScale: 0.28
+    - __dirty: 0
+    m_Colors:
+    - _BaseColor: {r: 0, g: 0.28101563, b: 1, a: 0}
+    - _CoreColor: {r: 1, g: 0.94646484, b: 0.8254717, a: 0}
+    - _OuterColor: {r: 0.5660378, g: 0.22820297, b: 0, a: 0}

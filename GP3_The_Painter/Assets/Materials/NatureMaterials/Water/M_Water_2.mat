@@ -1,0 +1,93 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: M_Water_2
+  m_Shader: {fileID: 4800000, guid: 27450114df15bd84893cf4079cad7e06, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 0
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Foam:
+        m_Texture: {fileID: 2800000, guid: 826f80ee0ad07444c8558af826a4df2e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MovingWave:
+        m_Texture: {fileID: 2800000, guid: b6b7ce044a0c5ef408f602ff61b3a415, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample1:
+        m_Texture: {fileID: 2800000, guid: df0f2e2030492c14d9237317aef419cd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample2:
+        m_Texture: {fileID: 2800000, guid: cd460ee4ac5c1e746b7a734cc7cc64dd, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _WaterNormal:
+        m_Texture: {fileID: 2800000, guid: ada4f524172ef8c4fa08cfbd231bb3dd, type: 3}
+        m_Scale: {x: 5, y: 5}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AO: 0.13
+    - _ChromaticAberration: 0.1
+    - _Distortion: 0.1
+    - _DistortionOpacity: 0.7
+    - _EdgeLength: 17.4
+    - _ExtusionPoint: 0.02
+    - _Float0: 0.5
+    - _Float1: -4
+    - _FoamDepth: 0
+    - _FoamFallof: 2.85
+    - _FoamSmoothness: 8.5
+    - _FoamSpecular: 0.17
+    - _FresnelBias: 1
+    - _FresnelPower: 19.5
+    - _FresnelScale: 0.2
+    - _LightColorIntensity: 0.45
+    - _MinHeight: 26.9
+    - _NormalScale: 1
+    - _NormalScale2: 0.42
+    - _NormalStr: 10.31
+    - _NormalStrength: 2.88
+    - _Opacity: 5.87
+    - _RefractionIndex: 0.87
+    - _TransAmbient: 0.2
+    - _TransDirect: 1
+    - _TransNormalDistortion: 0.1
+    - _TransScattering: 2
+    - _TransShadow: 0.9
+    - _Translucency: 1
+    - _WaterDepth: 64.73
+    - _WaterFallof: -0.57
+    - _WaterSmoothness: 0.77
+    - _WaterSpecular: 0.75
+    - _Wave: 0.12
+    - _WaveSize: 0.31
+    - _WaveSpeed: 2
+    - __dirty: 0
+    m_Colors:
+    - _DeepColor: {r: 0, g: 0.28999996, b: 0.5, a: 0}
+    - _FresnelColor: {r: 1, g: 0.5167219, b: 0, a: 0}
+    - _LightColor: {r: 1, g: 0.009791803, b: 0, a: 0}
+    - _ShalowColor: {r: 0, g: 1, b: 0.85882354, a: 0}
+    - _Vector0: {r: 0, g: 0, b: 0, a: 0}
+    - _WaveMovment1: {r: 0.05, g: 0.05, b: 0, a: 0}
+    - _WaveMovment2: {r: -0.03, g: 0, b: 0, a: 0}
+    - _WaveSpeed1: {r: 0.05, g: 0.05, b: 0, a: 0}
+    - _WaveSpeed2: {r: -0.03, g: 0, b: 0, a: 0}

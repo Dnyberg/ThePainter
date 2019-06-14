@@ -1,0 +1,198 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: LoversBridge
+  m_Shader: {fileID: 4800000, guid: 284c23922a9d64c4284b341e2a562957, type: 3}
+  m_ShaderKeywords: _DETAIL_MULX2 _NORMALMAP
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _Albedo:
+        m_Texture: {fileID: 8400000, guid: c175bcd634116a949b7726a20ba35d80, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _BumpMap:
+        m_Texture: {fileID: 2800000, guid: a06281b2e3f755246935e3b7c0c5a568, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailAlbedoMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 8, y: 8}
+        m_Offset: {x: 0, y: 0}
+    - _DetailMask:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _DetailNormalMap:
+        m_Texture: {fileID: 2800000, guid: a82913ad79d69f64ea9c84b4dd98987d, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _EmissionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0.24}
+    - _Foam:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 8400000, guid: c175bcd634116a949b7726a20ba35d80, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0.24}
+    - _MainTexture:
+        m_Texture: {fileID: 2800000, guid: ae16aac5df0f9fa4bab53f34e078b6c0, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MetallicGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MovingWave:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _NoiseTexture:
+        m_Texture: {fileID: 2800000, guid: 6622de1b0dc789c4e8a9b4a4b77f84df, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Normal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _OcclusionMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ParallaxMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _PictureNormal:
+        m_Texture: {fileID: 2800000, guid: 7da9cf2fbc5abfc4d8b22afc51b2ca91, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _ReflectanceTexture:
+        m_Texture: {fileID: 2800000, guid: 5a9406f3b6587b3488a15a023081d59e, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _Reflection:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _RenderTexture:
+        m_Texture: {fileID: 8400000, guid: c175bcd634116a949b7726a20ba35d80, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0.21}
+    - _RenderTexture2:
+        m_Texture: {fileID: 8400000, guid: c175bcd634116a949b7726a20ba35d80, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SmoothnessTexture:
+        m_Texture: {fileID: 2800000, guid: e5a47db7dba3f4e48a71c138fef6e225, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _SpecGlossMap:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: c91c72c24d0762e42bacee36631b0d23, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample3:
+        m_Texture: {fileID: 8400000, guid: c175bcd634116a949b7726a20ba35d80, type: 2}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0.24}
+    - _WaterNormal:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _texcoord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - _AO: 0
+    - _AlbedoMultiply: 1
+    - _AlbedoTintAmount: 0
+    - _AoMultiply: 0.1
+    - _AoStrength: 1
+    - _BumpScale: 0.2
+    - _Cutoff: 0.5
+    - _DetailMap: 0
+    - _DetailNormalMapScale: 0.2
+    - _DetailNormalSterngth: 1
+    - _DetailUVTiling: 1
+    - _Distortion: 0
+    - _DstBlend: 0
+    - _EdgeLength: 10.5
+    - _Float1: 1
+    - _FoamDepth: 0
+    - _FoamFallof: 0
+    - _FoamSmoothness: 0
+    - _FoamSpecular: 0
+    - _FresnelBias: 0
+    - _FresnelPower: 5
+    - _FresnelScale: 1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.672
+    - _GlossyReflections: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _NoiseIntensity: 0.6
+    - _NormalScale2: 0
+    - _NormalStrength: 1
+    - _OcclusionStrength: 1
+    - _Parallax: 0.02
+    - _PictureNormalIntensity: 0.4
+    - _Radius: 4.25
+    - _RenderTextureNormalIntensity: 100
+    - _SmoothnessStrenght: 1
+    - _SmoothnessTextureChannel: 0
+    - _SmothnessIntensity: 0.7
+    - _Smothnesscontreast: 1.33
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UV: 3.4
+    - _UVSec: 0
+    - _UVTiling: 1
+    - _WaterDepth: 0.99
+    - _WaterFallof: -3.6
+    - _WaterSmoothness: 0
+    - _WaterSpecular: 0
+    - _WaveSize: 0
+    - _WaveSpeed: 0.77
+    - _ZWrite: 1
+    - __dirty: 0
+    m_Colors:
+    - _AlbedoTint: {r: 0.6792453, g: 0.6779718, b: 0.3812745, a: 0}
+    - _Color: {r: 0.6132076, g: 0.6132076, b: 0.6132076, a: 1}
+    - _DeepColor: {r: 0.08346715, g: 0.07195622, b: 0.3113208, a: 0}
+    - _EmissionColor: {r: 0.030704886, g: 0.04229594, b: 0.05660379, a: 1}
+    - _FresnelColor: {r: 0, g: 0, b: 0, a: 0}
+    - _MasterTiling: {r: 2.5, g: 2.5, b: 0, a: 0}
+    - _Offset: {r: 0, g: 0.25, b: 0, a: 0}
+    - _ShalowColor: {r: 0.3158597, g: 0.5931625, b: 0.735849, a: 0}
+    - _SpecColor: {r: 0.3679245, g: 0.3679245, b: 0.3679245, a: 1}
+    - _TileNegativXY: {r: 0, g: 0, b: 0, a: 0}
+    - _TilePositiveXY: {r: 0, g: 0, b: 0, a: 0}
+    - _UVTiling: {r: 1, g: 1, b: 0, a: 0}
+    - _Vector0: {r: 0, g: 0.2, b: 0, a: 0}
+    - _WaveMovment1: {r: 0.005, g: 0.005, b: 0, a: 0}
+    - _WaveMovment2: {r: 0.005, g: 0.005, b: 0, a: 0}

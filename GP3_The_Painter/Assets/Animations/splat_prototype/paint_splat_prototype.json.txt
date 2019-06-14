@@ -1,0 +1,78 @@
+{
+"skeleton": { "hash": "0wAx0EqFx5ePRj7qi9plB5THa3c", "spine": "3.7.93", "width": 1289.45, "height": 1354.3 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "drip1", "parent": "root", "x": 47.86, "y": 4.39 },
+	{ "name": "splat", "parent": "root", "x": 23.72, "y": 3.26 },
+	{ "name": "drip2", "parent": "root", "x": 122.42, "y": -3.79 }
+],
+"slots": [
+	{ "name": "Layer 2", "bone": "splat", "attachment": "Layer 2" },
+	{ "name": "Layer 3", "bone": "drip1", "attachment": "Layer 3" },
+	{ "name": "Layer 4", "bone": "drip2", "attachment": "Layer 4" }
+],
+"skins": {
+	"default": {
+		"Layer 2": {
+			"Layer 2": { "x": -24.46, "y": -11.44, "rotation": 49.78, "width": 896, "height": 931 }
+		},
+		"Layer 3": {
+			"Layer 3": { "x": 17.64, "y": -338.7, "scaleX": 1.415, "scaleY": 1.415, "width": 74, "height": 545 }
+		},
+		"Layer 4": {
+			"Layer 4": { "x": 4.36, "y": -287.44, "scaleX": 1.568, "scaleY": 1.568, "width": 30, "height": 333 }
+		}
+	}
+},
+"animations": {
+	"splat_prototype_1": {
+		"bones": {
+			"root": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 1, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 1, "y": 1, "curve": "stepped" },
+					{ "time": 1, "x": 1, "y": 1 }
+				]
+			},
+			"drip1": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2667, "x": 0, "y": 0 },
+					{ "time": 0.7667, "x": 0, "y": 75.06 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.2667, "x": 0, "y": 0 },
+					{ "time": 0.7, "x": 1, "y": 1 }
+				]
+			},
+			"splat": {
+				"translate": [
+					{ "time": 0, "x": -22.89, "y": -1.53 },
+					{ "time": 0.2, "x": 0, "y": 0 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0.072, "y": 0.072 },
+					{ "time": 0.2, "x": 1.245, "y": 1.245 },
+					{ "time": 0.2667, "x": 1.026, "y": 1.026 }
+				]
+			},
+			"drip2": {
+				"translate": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 },
+					{ "time": 0.7333, "x": 0, "y": 51.97 }
+				],
+				"scale": [
+					{ "time": 0, "x": 0, "y": 0, "curve": "stepped" },
+					{ "time": 0.4, "x": 0, "y": 0 },
+					{ "time": 0.6667, "x": 1, "y": 1 }
+				]
+			}
+		}
+	}
+}
+}

@@ -1,0 +1,83 @@
+
+paint_splat_final.png
+size: 2048,2048
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+dots
+  rotate: false
+  xy: 2, 312
+  size: 862, 592
+  orig: 862, 592
+  offset: 0, 0
+  index: -1
+drip1
+  rotate: true
+  xy: 2, 2
+  size: 308, 756
+  orig: 308, 756
+  offset: 0, 0
+  index: -1
+drip2
+  rotate: true
+  xy: 846, 39
+  size: 171, 758
+  orig: 171, 758
+  offset: 0, 0
+  index: -1
+drip3
+  rotate: false
+  xy: 1919, 88
+  size: 81, 737
+  orig: 81, 737
+  offset: 0, 0
+  index: -1
+dropbody
+  rotate: true
+  xy: 866, 221
+  size: 683, 467
+  orig: 683, 467
+  offset: 0, 0
+  index: -1
+drops
+  rotate: true
+  xy: 1353, 827
+  size: 1122, 665
+  orig: 1122, 665
+  offset: 0, 0
+  index: -1
+overlay
+  rotate: true
+  xy: 1335, 212
+  size: 613, 582
+  orig: 613, 582
+  offset: 0, 0
+  index: -1
+splat1
+  rotate: false
+  xy: 760, 138
+  size: 44, 47
+  orig: 44, 47
+  offset: 0, 0
+  index: -1
+splat2
+  rotate: true
+  xy: 1606, 41
+  size: 169, 179
+  orig: 169, 179
+  offset: 0, 0
+  index: -1
+splat3
+  rotate: false
+  xy: 760, 187
+  size: 84, 123
+  orig: 84, 123
+  offset: 0, 0
+  index: -1
+splatbody
+  rotate: false
+  xy: 2, 906
+  size: 1349, 1043
+  orig: 1349, 1043
+  offset: 0, 0
+  index: -1

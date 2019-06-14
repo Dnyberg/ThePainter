@@ -1,0 +1,112 @@
+{ "skeleton": { "images": "D:/Futuregames_VT19_proj3/pSd/images/" },
+"bones": [
+	{ "name": "root" }
+],
+"slots": [
+	{ "name": "ear_back", "bone": "root", "attachment": "ear_back" },
+	{ "name": "tail", "bone": "root", "attachment": "tail" },
+	{ "name": "splat1", "bone": "root", "attachment": "splat1" },
+	{ "name": "splat2", "bone": "root", "attachment": "splat2" },
+	{ "name": "splat3", "bone": "root", "attachment": "splat3" },
+	{ "name": "upperleg_back", "bone": "root", "attachment": "upperleg_back" },
+	{ "name": "lowerleg_back", "bone": "root", "attachment": "lowerleg_back" },
+	{ "name": "foot_back", "bone": "root", "attachment": "foot_back" },
+	{ "name": "upperarm_back", "bone": "root", "attachment": "upperarm_back" },
+	{ "name": "lowerarm_back", "bone": "root", "attachment": "lowerarm_back" },
+	{ "name": "hand_back", "bone": "root", "attachment": "hand_back" },
+	{ "name": "body", "bone": "root", "attachment": "body" },
+	{ "name": "bodypaint", "bone": "root", "attachment": "bodypaint" },
+	{ "name": "upperarm_front", "bone": "root", "attachment": "upperarm_front" },
+	{ "name": "lowerarm_front", "bone": "root", "attachment": "lowerarm_front" },
+	{ "name": "hand_front", "bone": "root", "attachment": "hand_front" },
+	{ "name": "handpaint", "bone": "root", "attachment": "handpaint" },
+	{ "name": "upperleg_front", "bone": "root", "attachment": "upperleg_front" },
+	{ "name": "lowerleg_front", "bone": "root", "attachment": "lowerleg_front" },
+	{ "name": "foot_front", "bone": "root", "attachment": "foot_front" },
+	{ "name": "footpaint", "bone": "root", "attachment": "footpaint" },
+	{ "name": "head", "bone": "root", "attachment": "head" },
+	{ "name": "ear_front", "bone": "root", "attachment": "ear_front" },
+	{ "name": "whiskers", "bone": "root", "attachment": "whiskers" },
+	{ "name": "whiskers2", "bone": "root", "attachment": "whiskers2" }
+],
+"skins": {
+	"default": {
+		"ear_back": {
+			"ear_back": { "x": 702, "y": -255, "width": 130, "height": 282 }
+		},
+		"tail": {
+			"tail": { "x": 1227.5, "y": -849.5, "width": 233, "height": 151 }
+		},
+		"splat1": {
+			"splat1": { "x": 1315.5, "y": -713, "width": 109, "height": 76 }
+		},
+		"splat2": {
+			"splat2": { "x": 1426, "y": -826.5, "width": 128, "height": 127 }
+		},
+		"splat3": {
+			"splat3": { "x": 1372.5, "y": -784.5, "width": 61, "height": 27 }
+		},
+		"upperleg_back": {
+			"upperleg_back": { "x": 1018.5, "y": -771.5, "width": 253, "height": 161 }
+		},
+		"lowerleg_back": {
+			"lowerleg_back": { "x": 923.5, "y": -845, "width": 75, "height": 176 }
+		},
+		"foot_back": {
+			"foot_back": { "x": 824.5, "y": -858.5, "width": 221, "height": 179 }
+		},
+		"upperarm_back": {
+			"upperarm_back": { "x": 793, "y": -670.5, "width": 116, "height": 203 }
+		},
+		"lowerarm_back": {
+			"lowerarm_back": { "x": 806, "y": -804, "width": 96, "height": 164 }
+		},
+		"hand_back": {
+			"hand_back": { "x": 765, "y": -893.5, "width": 72, "height": 71 }
+		},
+		"body": {
+			"body": { "x": 895.5, "y": -602, "width": 531, "height": 518 }
+		},
+		"bodypaint": {
+			"bodypaint": { "x": 1019, "y": -665.5, "width": 364, "height": 181 }
+		},
+		"upperarm_front": {
+			"upperarm_front": { "x": 799.5, "y": -682.5, "width": 149, "height": 203 }
+		},
+		"lowerarm_front": {
+			"lowerarm_front": { "x": 815, "y": -817, "width": 96, "height": 162 }
+		},
+		"hand_front": {
+			"hand_front": { "x": 774, "y": -905.5, "width": 72, "height": 71 }
+		},
+		"handpaint": {
+			"handpaint": { "x": 751, "y": -921.5, "width": 146, "height": 67 }
+		},
+		"upperleg_front": {
+			"upperleg_front": { "x": 1044.5, "y": -787.5, "width": 287, "height": 223 }
+		},
+		"lowerleg_front": {
+			"lowerleg_front": { "x": 933, "y": -859, "width": 74, "height": 176 }
+		},
+		"foot_front": {
+			"foot_front": { "x": 834.5, "y": -924.5, "width": 221, "height": 47 }
+		},
+		"footpaint": {
+			"footpaint": { "x": 897.5, "y": -938, "width": 163, "height": 46 }
+		},
+		"head": {
+			"head": { "x": 678.5, "y": -449.5, "width": 159, "height": 167 }
+		},
+		"ear_front": {
+			"ear_front": { "x": 739.5, "y": -270.5, "width": 111, "height": 303 }
+		},
+		"whiskers": {
+			"whiskers": { "x": 516.5, "y": -529.5, "width": 173, "height": 171 }
+		},
+		"whiskers2": {
+			"whiskers2": { "x": 583.5, "y": -308.5, "width": 141, "height": 163 }
+		}
+	}
+},
+"animations": { "animation": {} }
+}
